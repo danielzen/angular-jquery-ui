@@ -12,7 +12,7 @@
     };
   };
 
-  angular.directive('jqui:drag-start', function(_, item){
+  app.directive('jqui:drag-start', function(_, item){
     var dragStartExp = item.attr('jqui:drag-start') || '';
     var dragEndExp = item.attr('jqui:drag-end') || '';
     var handle = item.attr('jqui:handle') || false;
@@ -52,7 +52,7 @@
     };
   });
 
-  angular.directive('jqui:drop-commit', function(_, target){
+  app.directive('jqui:drop-commit', function(_, target){
     var acceptExp = target.attr('jqui:drop-accept') || '';
     var commitExp = target.attr('jqui:drop-commit') || '';
     target.addClass('jqui-dnd-target');
