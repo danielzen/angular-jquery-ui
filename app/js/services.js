@@ -1,5 +1,12 @@
 /* http://docs.angularjs.org/#!angular.service */
 
+
+  app = angular.module('MyAngularModule', function() {
+		
+		
+	});
+	
+
 /**
  * App service which is responsible for the main configuration of the app.
  */
